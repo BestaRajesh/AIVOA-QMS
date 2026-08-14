@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+frontend/dist/
+dist/
+
+# Database & SQLite files
+*.db
+*.sqlite3
+pharma_qms.db
+
+# Environment variables & local configs
+.env
+.env.local
+*.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
